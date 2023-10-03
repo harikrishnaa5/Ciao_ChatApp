@@ -1,0 +1,46 @@
+$color-nav-text: white;
+$color-button: rgba(166, 193, 166, 0.59);
+$color-tertiary: rgba(44, 76, 44, 0.59);
+
+.navbar{
+    display: flex;
+    background-color:$color-tertiary;
+    padding: 20px;
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    color: $color-nav-text;
+    .logo{
+        font-weight: bold;
+    }
+    .user{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        img{
+            border-radius: 50%;
+            background-color: white;
+            height: 28px;
+            width: 28px;
+            object-fit: cover;
+        }
+
+        button{
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+            background-color: $color-button;
+            cursor: pointer;
+            color: rgb(229, 226, 226);
+            font-size: 11px;
+
+            &:hover{
+                background-color: rgb(235, 12, 12);
+                transition: .3s;
+                
+            }
+
+        }
+    }
+}
