@@ -1,3 +1,29 @@
+$color-quaternary: rgba(77, 146, 77, 0.719);
+
 .chat{
     flex: 2;
+    .chatInfo{
+        padding: 1.7rem 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        background-color: $color-quaternary;
+        .chatIcons{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            #camIcon{
+                width: 18px;
+                
+            }
+            #addIcon{
+                width: 16px;
+            }
+            #moreIcon{
+                width: 12px;
+                height: 13px;
+            }
+        }
+    }
 }

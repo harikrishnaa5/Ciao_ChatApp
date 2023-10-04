@@ -1,0 +1,10 @@
+.messages{
+    background: rgba(170, 218, 154, 0.625);
+    padding: 10px;
+    height: calc(100% - 109px);
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+}

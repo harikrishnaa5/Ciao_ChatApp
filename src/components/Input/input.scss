@@ -1,0 +1,48 @@
+.input{
+    height: 54px;
+    background-color: white;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    input{
+        border: none;
+        font-size: 15px;
+        &::placeholder{
+            color: rgb(175, 175, 175);
+            font-style: italic;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+
+    .send{
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        
+        
+
+        #attach{
+            width: 18px;
+            height: 20px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+
+        button{
+            border: none;
+            padding: 7px 10px;
+            // border-radius: 5px;
+            cursor: pointer;
+            background-color:rgba(120, 203, 120, 0.72);
+
+            &:hover{
+                background-color: rgba(71, 204, 71, 0.72);
+                transition: .2s;
+            }
+        }
+    }
+}
